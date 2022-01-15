@@ -15,12 +15,12 @@ else:
 
 setup(
     name='django-tabbed-admin',
-    version='1.0.4',
-    author='Guillaume Pousseo',
-    author_email='guillaumepousseo@revsquare.com',
+    version='1.0.5',
+    author='Guillaume Pousseo, PulseLogic BV',
+    author_email='guillaumepousseo@revsquare.com, info@pulselogic.be',
     description='Easily add tabs to django admin forms.',
     long_description=open('README.rst').read(),
-    url='http://www.revsquare.com',
+    url='http://www.revsquare.com, https://www.pulselogic.be',
     license='BSD License',
     platforms=['OS Independent'],
     packages=find_packages(),
@@ -33,7 +33,6 @@ setup(
         'License :: OSI Approved :: BSD License',
         'Operating System :: OS Independent',
         'Programming Language :: Python',
-        'Programming Language :: Python :: 2.7',
-        'Programming Language :: Python :: 3.5',
+        'Programming Language :: Python :: 3.8',
     ],
 )
